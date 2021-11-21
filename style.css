@@ -1,0 +1,421 @@
+@import url('http://fonts.cdnfonts.com/css/roboto');
+body{
+    color:white!important;
+}
+.form-group{
+    margin:10px;
+}
+a{
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color:rgb(159, 154, 165);
+}
+.container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+table, th, td {
+    border: 1px solid black;
+    background-color: #6e8178;
+  }
+  td{
+      padding: 10px;
+  }
+.ver-mais{
+    margin-left:10px;
+    text-decoration: none;
+}
+.input-form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.input-form input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.input-group{
+    width: 50%;
+}
+
+#container-card{
+    margin-top: 90px;
+}
+#escolha-jogo{
+    display: flex;
+    height: 328px;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+}
+
+#escolha-jogo p{
+    height: 250px;
+}
+
+#escolha-jogo h3{
+    height: 90px;
+}
+#titulo-h{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p,h1,h2,h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn.btn-primary.btn-lg{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+body,
+html {
+  font-family: "Vollkorn", serif;
+  font-weight: 400;
+  line-height: 1.3;
+  font-size: 16px;
+}
+
+.siteTitle {
+  display: block;
+  font-weight: 900;
+  font-size: 30px;
+  margin: 20px 0;
+}
+@media (min-width: 768px) {
+  .siteTitle {
+    font-size: 60px;
+  }
+}
+
+header,
+main,
+footer {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 370px;
+  height: 300px;
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  text-decoration: none;
+  border: 4px solid #b0215e;
+  margin-bottom: 20px;
+  background-image: url("img/hilda.jpg");
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  .card {
+    height: 300px;
+  }
+}
+
+.inner {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  box-sizing: border-box;
+  
+  width: 100%;
+  height: 20%;
+}
+@media (min-width: 768px) {
+  .inner {
+    width: 100%;
+    height: 20%;
+    border: 4px solid #4721b0;
+  }
+}
+
+.title {
+  font-size: 22px;
+  color: black;
+  text-align: center;
+  font-weight: 700;
+  color: #181818;
+  position: relative;
+  margin-top: 5px;
+}
+
+
+.subtitle {
+  color: #b0215e;
+  text-align: center;
+}
+
+.card2 {
+  background-image: url("img/par.jpg");
+}
+
+.card3 {
+  background-image: url("img/pedraall.jpg");
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.footerLink {
+  margin-right: 12px;
+  color: #181818;
+  text-decoration: none;
+  position: relative;
+}
+.footerLink:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: rgba(176, 33, 94, 0.3);
+  left: 0;
+  bottom: 0;
+}
+.footerLink:last-child {
+  margin-right: 0;
+}
+
+
+  
+  #jogadores{
+      display: flex;
+  }
+  div{
+      margin-top: 10px;
+      margin-bottom:10px;
+  }
+
+  .Computador{
+      width: 300px;
+  }
+  .Jogador{
+    width: 300px;
+  }
+  #container-principal{
+      height: 700px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .botao{
+    justify-content: space-between;
+    display: flex;
+  }
+
+
+
+.imgcomputador{
+    margin: 40px 0px 40px 40px;
+    position: relative;
+    max-width: 250px;
+    max-height: 350px;
+    box-shadow: 0 40px 60px -6px black;
+}
+
+.imgcomputador img {
+    width: 100%;
+    height: 98%;
+    object-fit: cover;
+    display: block;
+    position: relative;
+    
+}
+.imgcomputador p{
+    display: block; 
+    font-size: 1.2rem;
+    padding: 13px 8%;
+    color: #fff;
+    text-align: center;
+    color: black;
+    text-align: center;
+    color: #fff;
+    background-color: #6184a8;
+}
+
+.imgjogador{
+    margin: 40px 40px 40px 0px;
+    position: relative;
+    max-width: 250px;
+    max-height: 350px;
+    box-shadow: 0 40px 60px -6px black;
+}
+
+.imgjogador img {
+    width: 100%;
+    height: 98%;
+    object-fit: cover;
+    display: block;
+    position: relative;
+    
+}
+
+.imgjogador p{
+    display: block; 
+    font-size: 1.2rem;
+    padding: 13px 8%;
+    color: #fff;
+    text-align: center;
+    color: black;
+    text-align: center;
+    color: #fff;
+    background-color: #6184a8;
+}
+.jogadas{
+    display: flex;
+    
+}
+.textos-jogadas{
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+    margin-right: 20px;
+    justify-content: space-around;
+
+}
+.soma-valores{
+    justify-content: space-between;
+    display: flex;
+}
+
+#derrota{
+    display: flex;
+    justify-content: center;
+}
+#vitoria{
+    display: flex;
+    justify-content: center;
+}
+#empate{
+    display: flex;
+    justify-content: center;
+}
+p,div{
+    
+    font-family: time;
+    font-weight: 100;
+    font-size: 15px;
+    color:white;
+}
+#aviso{
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+}
+body{
+    background-color: #34495e;
+}
+#titulo-dados{
+    justify-content: center;
+    display: flex;
+    margin-top: 55px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+/* css para card do jogo de pedra papel e tesoura */
+
+/* body {
+  text-align: center;
+  padding: 30px;
+  background: #f8f4f2;
+  font-family: Arial;
+} */
+
+.a-box {
+  display: inline-block;
+  width: 240px;
+  text-align: center;
+}
+
+.img-container {
+  height: 230px;
+  width: 200px;
+  overflow: hidden;
+  border-radius: 0px 0px 20px 20px;
+  display: inline-block;
+}
+
+.img-container img {
+  transform: skew(0deg, -13deg);
+  height: 250px;
+  margin: -35px 0px 0px -70px;
+}
+
+.inner-skew {
+  display: inline-block;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 0px;
+  transform: skew(0deg, 13deg);
+  font-size: 0px;
+  margin: 30px 0px 0px 0px;
+  background: #c8c2c2;
+  height: 250px;
+  width: 200px;
+}
+
+.text-container {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  padding: 120px 20px 20px 20px;
+  border-radius: 20px;
+  background: #fff;
+  margin: -120px 0px 0px 0px;
+  line-height: 19px;
+  font-size: 14px;
+}
+
+.text-container h3 {
+  margin: 20px 0px 10px 0px;
+  color: #04bcff;
+  font-size: 18px;
+}
+
+#pmg{
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  border: 5px solid black;
+}
+#Resultado{
+  justify-content: center;
+  display: flex;
+}
+.resultado-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#jogador-img-d{
+  width: 100px;
+  height: 100px;
+  margin:10px;
+  border-radius: 10px;
+  border: 5px solid green;
+}
+#computador-img-d{
+  width: 100px;
+  height: 100px;
+  margin:10px;
+  border-radius: 10px;
+  border: 5px solid blue;
+}
+.escolha_p{
+  text-align: center;
+}
+
+
+
